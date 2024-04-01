@@ -2,7 +2,7 @@ import textwrap
 
 def wrap(string, max_width):
     string = textwrap.fill(string, width = max_width )
-    #print(wrapper)
+    
     return string
 
 if __name__ == '__main__':
